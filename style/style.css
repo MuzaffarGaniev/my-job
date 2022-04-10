@@ -1,0 +1,683 @@
+@import url("fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1398px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    padding: 20px 0;
+    background: white;
+}
+
+/* ====== header ====== */
+
+.header {
+    background: #EEF0F4
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content img{
+    height: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 40px;
+    letter-spacing: 0.5px;
+    color: #081158;
+}
+
+.link-other {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #081158;
+    border-radius: 6px;
+    padding: 12px 20px;
+    transition: .5s;
+}
+
+.link-other:hover {
+    background: #d6d6d6;
+    color: black;
+    border: 1px solid black;
+}
+
+.intro-content {
+    height: 995px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-title {
+    font-family: 'Permanent Marker';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: #8EA5A0;
+    margin: 0 100px;
+}
+
+.intro-text {
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #081158;
+    margin-bottom: 32px;
+}
+
+.intro-title2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    color: #081158;
+    margin-bottom: 31px;
+}
+
+.intro-text2{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #081158;
+    margin-bottom: 61px;
+}
+
+.intro-link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #081158;
+    border-radius: 6px;
+    padding: 20px 20px;
+    transition: .5s;
+}
+
+.intro-link:hover{
+    background: #d6d6d6;
+    color: black;
+    border: 1px solid black;
+}
+
+.intro-content_right{
+    margin-left: 80px;
+}
+
+.in-lf{
+    border-radius: 10px;
+}
+
+/* ====== header ====== */
+
+/* ====== main ====== */
+
+.section{
+    background: #081158;
+    border-radius: 0px;
+    height: 165px;
+}
+
+.section-comment_title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.section-comment_text{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DFDFDF;
+}
+
+.section-comment_info{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.section-comment_card{
+    text-align: center;
+}
+
+.section2 {
+    padding-top: 153px;
+}
+
+.section2-adviсe_title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    width: 703px;
+    font-size: 62px;
+    line-height: 70px;
+    text-align: center;
+    color: #081158;
+    margin-bottom: 26px;
+}
+
+.section2-advice_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2-blockcard_info__title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+    color: #081158;
+    margin: 32px 0;
+}
+
+.section2-blockcard_info__text{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #081158;
+}
+
+.section2-block{
+    display: flex;
+    margin-bottom: 57px;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.section2-block2{
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-evenly;
+}
+
+.section2-block_card{
+    width: 430px;
+    height: 538px;
+}
+
+.section2-blockcard_img{
+    margin: 0 50px;
+    border-radius: 10px;
+}
+
+.section3{
+    background: #EEF0F4;
+}
+
+.section-timetable_title{
+    font-family: 'Roboto';
+    font-weight: 400;
+    width: 787px;
+    font-size: 86px;
+    line-height: 99px;
+    color: #081158;
+    padding-top: 154px;
+}
+
+.section-timetable_text{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    width: 590px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #081158;
+    margin: 31px 0 35px 0;
+}
+
+.section-timetable_block{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-timetable_text2{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #081158;
+}
+
+.section-timetable_text3{
+    font-family: 'Permanent Marker';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #EC8675;
+    justify-content: end;
+    display: flex;
+    margin-top: -20px;
+}
+
+.section-timetable_title2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #081158;
+    margin: 14px 0 14px 0;
+}
+
+.section-timetable_text4{
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #081158;
+}
+
+.section-timetable_card{
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.section-timetable_info2{
+    padding: 30px 30px;
+}
+
+.section-timetable_card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.section4 {
+    background: url("../img/IMAGE (9).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.section4-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section4-first-title {
+    width: 70%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 99px;
+    color: #FFFFFF;
+}
+
+.section4-first-text {
+    width: 45%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.section4-second {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.section4-second-card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.section4-second-card-time {
+    margin: 30px 0 14px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section4-second-card-time-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #081158;
+}
+
+.section4-second-card-time-price {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #EC8675;
+}
+
+.section4-second-card-title {
+    width: 85%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #081158;
+}
+
+.section4-second-card-text {
+    margin: 14px 0 30px;
+    width: 80%;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #081158;
+}
+
+.section5 {
+    padding: 234px 0 255px;
+    background: url("../img/IMAGE (13).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5-title {
+    font-family: 'Permanent Marker';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.section6 {
+    padding: 250px 0 150px;
+}
+
+.section6-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section6-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section6-left-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    color: #081158;
+}
+
+.section6-left-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #081158;
+    margin: 30px 0 25px;
+
+}
+
+.section6-img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.section7 {
+    width: 100%;
+    height: 764px;
+    background: url("../img/IMAGE\ \(15\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section8 {
+    padding: 150px 0;
+}
+
+.section8-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section8-first {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section8-first-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 70px;
+    text-align: center;
+    color: #081158;
+
+}
+
+.section8-first-text {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #081158;
+    margin: 34px 0 25px;
+}
+
+.section8-imgs {
+    display: flex;
+    padding: 100px 0 0 0;
+}
+
+.section8-imgs img{
+    border-radius: 10px;
+}
+
+.sec8-img {
+    margin: 0 25px 0 25px;
+}
+
+.section9{
+    position: relative;
+    background: #EEF0F4;
+}
+
+.section9-content{
+    padding: 150px 0;
+}
+
+.section9-card2 img{
+    margin-top: 100px;
+}
+
+.section9-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section9-card2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-9_socialnetwork{
+    position: absolute;
+    width: 100%;
+    top: 39%;
+}
+
+/* ====== main ====== */
+
+/* ====== footer ====== */
+
+.footer {
+    padding: 100px 0;
+    background: #081158;
+}
+
+.footer-section{
+    margin-bottom: 50px;
+}
+
+.footer-section_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section-card{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section-card_major {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.footer-section-card_email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.footer-section-card_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer-section2_card{
+    margin-right: 65px;
+}
+
+/* ====== footer ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
